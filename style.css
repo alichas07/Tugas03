@@ -1,0 +1,125 @@
+/*Latihan 5*/
+.latihan5 h1{
+    color: lightblue;
+    font-family: arial;
+    font-size: 50px;
+    text-align: center;
+}
+
+.latihan5 p{
+    text-indent: 30px;
+    line-height: 1.5;
+    font-size: 16px;
+    color: royalblue;
+    font-family: verdana;
+}
+
+.latihan5 li{
+    color: cornflowerblue;
+    font-size: 12px;
+    font-family: cursive;
+}
+
+/*Latihan 6*/
+.latihan6 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+
+    /*Menengahkan gambar*/
+    display: block;
+    margin: 0px auto 0px auto;
+}
+
+/*selector digunakan untuk memilih mana bagian dari HTML yang akan diubah*/
+/*syntax CSS adalah selector{properties: value;}*/
+
+/*selector dengan nama tag*/
+.latihan6 h1{
+    color: black;
+}
+
+/*selector id*/
+.latihan6 #judul{
+    color: orange;
+}
+/*selector class*/
+.latihan6 .tengah{
+    align-self: center;
+    color: blue;
+}
+
+/*Multy selector*/
+.latihan6 h2, h3, h4{
+    color: midnightblue;
+}
+
+/*lebih spesifik lagi bisa*/
+.latihan6 h2.tengah{
+    color: pink;
+}
+
+/*LatihanCSS*/
+.latihanCSS a:link{
+    color: midnightblue;
+}
+
+.latihanCSS a:visited{
+    color: green;
+}
+
+.latihanCSS a:hover{
+    color: orange;
+}
+
+.latihanCSS a:active{
+    color: darkcyan;
+}
+
+.latihanCSS .button{
+    border-radius: 5px;
+    border: none;
+    background-color: midnightblue;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+}
+
+.latihanCSS .button:hover{
+    background-color: orange;
+}
+
+.latihanCSS .button:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+}
+
+/*Latihan Pseudo*/
+.latihanPseudo table tr td:first-child{
+    width: 50px;
+}
+
+.latihanPseudo table tr td:not(:first-child){
+    width: 100px;
+    border-bottom: 1px solid white;
+}
+
+.latihanPseudo thead td{
+    background-color: rgb(83, 120, 63);
+    color: white;
+}
+
+.latihanPseudo #ganjil{
+    background-color: #ed9d78;
+    color: white;
+}
+
+.latihanPseudo #genap{
+    background-color: #aab085;
+    color: white;
+}
+
+.latihanPseudo td:hover{
+    background-color: #675908;
+    color: #333;
+}
